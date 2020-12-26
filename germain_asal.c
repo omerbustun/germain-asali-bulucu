@@ -5,7 +5,7 @@ int main() {
     int a,b;
     int i;
     int ger_say = 0;
-	printf("Sinirlari girin:\n");
+	printf("Sinirlari girin: ");
 	
 	scanf("%d %d",&a,&b);
 	
@@ -48,8 +48,12 @@ int main() {
 	    	}
 	    	
 	    }
-	    if (ger_say == 0)
+	    if (ger_say == 0){
 	    printf("Bu aralikta Germain asali bulunmamaktadir.");
+	    }
+	    else {
+	    printf("\nVerdiginiz aralikta %d tane Germain asali bulunmustur.",ger_say);
+	    }
 	    return 0;
     }
     
