@@ -15,7 +15,7 @@ int main() {
 	
 	for (i=a; i<=b; i++)
 	{
-		
+	
         if (2<=i) 
 		{
         	
@@ -38,6 +38,7 @@ int main() {
 	
 	                if ((2*i + 1) % y == 0)
 	                    gerasal_sayac += 1;
+	                    
 				}
 	            
 				if (gerasal_sayac == 0)		{
