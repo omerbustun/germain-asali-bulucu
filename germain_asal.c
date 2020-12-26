@@ -14,7 +14,7 @@ int main() {
 	for (i=a; i<=b; i++)
 	{
 		
-        if (!(i == 0 || i == 1)) 
+        if (2<=i) 
 		{
         	
 			int asal_sayac = 0;
