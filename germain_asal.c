@@ -1,10 +1,12 @@
 #include <stdio.h>
-
+#define SIZE 100
 int main() {
 	
     int a,b;
     int i;
+    int j = 0;
     int ger_say = 0;
+    int array[SIZE];
 	printf("Sinirlari girin: ");
 	
 	scanf("%d %d",&a,&b);
@@ -39,15 +41,19 @@ int main() {
 				}
 	            
 				if (gerasal_sayac == 0)		{
-	                printf("%d - ",i);
+	                array[j] = i;
+	                j++;
 	                ger_say += 1;
 					}
 	
 				}
 				
-	    	}
-	    	
+	    	} 	
 	    }
+	    
+	    for(i=0;i<j;i++){
+	    	printf("%d ", array[i]);
+		}
 	    if (ger_say == 0){
 	    printf("Bu aralikta Germain asali bulunmamaktadir.");
 	    }
@@ -56,5 +62,3 @@ int main() {
 	    }
 	    return 0;
     }
-    
-
