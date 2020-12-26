@@ -39,7 +39,7 @@ int main() {
 				}
 	            
 				if (gerasal_sayac == 0)		{
-	                printf("%d-",i);
+	                printf("%d - ",i);
 	                ger_say += 1;
 					}
 	
