@@ -27,7 +27,6 @@ int main() {
 	
 	            if(i % x == 0)
 	                asal_sayac += 1;
-	
 	        }
 	        if (asal_sayac == 0) 
 			{
@@ -38,13 +37,15 @@ int main() {
 	
 	                if ((2*i + 1) % y == 0)
 	                    gerasal_sayac += 1;
-	                    
+
 				}
 	            
 				if (gerasal_sayac == 0)		{
 	                array[j] = i;
 	                j++;
 	                ger_say += 1;
+	                	                
+
 					}
 	
 				}
